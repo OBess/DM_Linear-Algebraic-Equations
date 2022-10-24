@@ -10,12 +10,14 @@ class SeidelsMethod
 {
 public:
     SeidelsMethod(size_t n, float_t accuracy)
-        : _matrix{std::vector<float_t>(n)}, _vector(n), _result(n), _accuracy{accuracy}
+        : _matrix(n, std::vector<float_t>(n + 1)), _vector(n), _result(n), _accuracy{accuracy}
     {
     }
 
     inline void add(size_t x, size_t y, float_t value) noexcept
     {
+        _matrix[y][x] = value;
+        _vector[y] = _matrix[y].back();
     }
 
     inline void compute() noexcept

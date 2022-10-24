@@ -3,6 +3,8 @@
 
 #include "SeidelsMethod.h"
 
+#include <iostream>
+
 UISeidelsSetup::UISeidelsSetup(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::UISeidelsSetup)
@@ -59,5 +61,20 @@ void UISeidelsSetup::on_computeBtn_released()
 {
     auto accuracy = ui->accuracyEdit->text().toFloat();
     auto SeidelMethod = sfe::SeidelsMethod(_n, accuracy);
+
+    for (int i = 1; i < ui->matrixLayout->rowCount(); ++i)
+    {
+      for (int j = 0; j < ui->matrixLayout->columnCount(); ++j)
+      {
+        auto item = ui->matrixLayout->itemAtPosition(i, j);
+        if (item)
+        {
+            auto textEdit = static_cast<QLineEdit*>(item->widget());
+            SeidelMethod.add(j, i - 1, textEdit->text().toFloat());
+        }
+      }
+    }
+
+
 }
 

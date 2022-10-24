@@ -8,6 +8,8 @@
 #include <memory>
 #include <list>
 
+#include "uisedelsresult.h"
+
 namespace Ui {
 class UISeidelsSetup;
 }
@@ -39,6 +41,8 @@ private:
     std::unique_ptr<QLabel> _lblVectorB;
 
     size_t _n = 0;
+
+    std::unique_ptr<UISedelsResult> seidelsResult;
 };
 
 #endif // UISEIDELSSETUP_H

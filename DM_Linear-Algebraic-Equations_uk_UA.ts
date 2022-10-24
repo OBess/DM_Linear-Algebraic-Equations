@@ -65,6 +65,15 @@
     </message>
 </context>
 <context>
+    <name>UISedelsResult</name>
+    <message>
+        <location filename="uisedelsresult.ui" line="14"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uisedelsresult.h" line="45"/>
+        <source>Результати розв&apos;язку СЛАУ</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>UISeidelsSetup</name>
     <message>
         <location filename="uiseidelssetup.ui" line="26"/>

@@ -24,6 +24,9 @@ set(PROJECT_SOURCES
         uiseidelssetup.cpp
         uiseidelssetup.h
         uiseidelssetup.ui
+        uisedelsresult.cpp
+        uisedelsresult.h
+        uisedelsresult.ui
         SeidelsMethod.h
         ${TS_FILES}
 )

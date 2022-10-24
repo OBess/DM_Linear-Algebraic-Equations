@@ -9,6 +9,8 @@ namespace sfe
 class SeidelsMethod
 {
 public:
+    SeidelsMethod() = default;
+
     SeidelsMethod(size_t n, float_t accuracy)
         : _matrix(n, std::vector<float_t>(n + 1)), _vector(n), _result(n), _accuracy{accuracy}
     {

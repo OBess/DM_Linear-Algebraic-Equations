@@ -21,6 +21,10 @@ set(PROJECT_SOURCES
         linearalgebraicequations.cpp
         linearalgebraicequations.h
         linearalgebraicequations.ui
+        uiseidelssetup.cpp
+        uiseidelssetup.h
+        uiseidelssetup.ui
+        SeidelsMethod.h
         ${TS_FILES}
 )
 

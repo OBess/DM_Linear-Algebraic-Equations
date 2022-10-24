@@ -68,73 +68,33 @@
     <name>UISeidelsSetup</name>
     <message>
         <location filename="uiseidelssetup.ui" line="26"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="168"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="79"/>
         <source>Встановлення значень</source>
         <oldsource>Задання значень</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="uiseidelssetup.ui" line="39"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="169"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="80"/>
         <source>Кількість змінних: 3</source>
         <oldsource>Кількість змінних</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="uiseidelssetup.ui" line="52"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="170"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="81"/>
         <source>Точність ε = </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="uiseidelssetup.ui" line="93"/>
-        <location filename="uiseidelssetup.ui" line="100"/>
-        <location filename="uiseidelssetup.ui" line="107"/>
-        <location filename="uiseidelssetup.ui" line="114"/>
-        <location filename="uiseidelssetup.ui" line="121"/>
-        <location filename="uiseidelssetup.ui" line="128"/>
-        <location filename="uiseidelssetup.ui" line="135"/>
-        <location filename="uiseidelssetup.ui" line="142"/>
-        <location filename="uiseidelssetup.ui" line="149"/>
-        <location filename="uiseidelssetup.ui" line="156"/>
-        <location filename="uiseidelssetup.ui" line="163"/>
-        <location filename="uiseidelssetup.ui" line="170"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="171"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="172"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="173"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="174"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="175"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="176"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="177"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="178"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="179"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="180"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="181"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="182"/>
-        <source>0</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="uiseidelssetup.ui" line="186"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="183"/>
-        <source>Матриця А</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="uiseidelssetup.ui" line="202"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="184"/>
-        <source>Результат B</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="uiseidelssetup.ui" line="221"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="185"/>
+        <location filename="uiseidelssetup.ui" line="102"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="82"/>
         <source>Вирішити</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="uiseidelssetup.ui" line="234"/>
-        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="186"/>
+        <location filename="uiseidelssetup.ui" line="115"/>
+        <location filename="build/DM_Linear-Algebraic-Equations_autogen/include/ui_uiseidelssetup.h" line="83"/>
         <source>Скасувати</source>
         <translation type="unfinished"></translation>
     </message>

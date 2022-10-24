@@ -2,7 +2,8 @@
 #define UISEIDELSSETUP_H
 
 #include <QMainWindow>
-#include <QLayoutItem>
+#include <QLineEdit>
+#include <QLabel>
 
 #include <memory>
 #include <list>
@@ -31,7 +32,11 @@ private:
 
     Ui::UISeidelsSetup *ui;
 
-    std::list<std::unique_ptr<QLayoutItem>> _layoutItems;
+    std::list<std::unique_ptr<QLineEdit>> _layoutWidgets;
+
+    std::unique_ptr<QLabel> _lblMatrixA;
+
+    std::unique_ptr<QLabel> _lblVectorB;
 
     size_t _n = 0;
 };

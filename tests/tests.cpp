@@ -33,7 +33,8 @@ TEST(SeidelsMethod, n_2_0001f)
     };
 
     const auto n = 2;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -41,7 +42,7 @@ TEST(SeidelsMethod, n_2_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 
@@ -55,7 +56,8 @@ TEST(SeidelsMethod, n_3_0001f)
     };
 
     const auto n = 3;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -63,7 +65,7 @@ TEST(SeidelsMethod, n_3_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 
@@ -78,7 +80,8 @@ TEST(SeidelsMethod, n_4_0001f)
     };
 
     const auto n = 4;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -86,7 +89,7 @@ TEST(SeidelsMethod, n_4_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 
@@ -102,7 +105,8 @@ TEST(SeidelsMethod, n_5_0001f)
     };
 
     const auto n = 5;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -110,7 +114,7 @@ TEST(SeidelsMethod, n_5_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 
@@ -127,7 +131,8 @@ TEST(SeidelsMethod, n_6_0001f)
     };
 
     const auto n = 6;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -135,7 +140,7 @@ TEST(SeidelsMethod, n_6_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 
@@ -153,7 +158,8 @@ TEST(SeidelsMethod, n_7_0001f)
     };
 
     const auto n = 7;
-    const auto accuracy = 0.0001f;
+    const auto accuracy = 1e-4f;
+    const auto eps = 1e-1f;
 
     auto seidelsMethod = setupAndCompute(n, accuracy, dataset);
 
@@ -161,7 +167,7 @@ TEST(SeidelsMethod, n_7_0001f)
 
     for (size_t i = 0; i < expected.size(); ++i)
     {
-        EXPECT_FLOAT_EQ(expected[i], seidelsMethod.result()[i]);
+        EXPECT_NEAR(expected[i], seidelsMethod.result()[i], eps);
     }
 }
 

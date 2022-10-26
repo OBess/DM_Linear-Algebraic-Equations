@@ -16,7 +16,16 @@ UISedelsResult::~UISedelsResult()
 void UISedelsResult::set_method(sfe::SeidelsMethod seidelsMethod) noexcept
 {
     _seidelsMethod = std::move(seidelsMethod);
-    _seidelsMethod.compute();
+
+    try
+    {
+        _seidelsMethod.compute();
+    }
+    catch (const std::exception& ex)
+    {
+        qPrintable(ex.what());
+        return;
+    }
 
     QString result_str{"[ "};
 

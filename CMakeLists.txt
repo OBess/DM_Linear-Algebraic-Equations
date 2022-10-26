@@ -22,16 +22,16 @@ set(TS_FILES DM_Linear-Algebraic-Equations_uk_UA.ts)
 
 set(PROJECT_SOURCES
         main.cpp
-        linearalgebraicequations.cpp
-        linearalgebraicequations.h
+        src/linearalgebraicequations.cpp
+        include/linearalgebraicequations.h
         linearalgebraicequations.ui
-        uiseidelssetup.cpp
-        uiseidelssetup.h
+        src/uiseidelssetup.cpp
+        include/uiseidelssetup.h
         uiseidelssetup.ui
-        uisedelsresult.cpp
-        uisedelsresult.h
+        src/uisedelsresult.cpp
+        include/uisedelsresult.h
         uisedelsresult.ui
-        SeidelsMethod.h
+        include/SeidelsMethod.h
         ${TS_FILES}
 )
 
@@ -56,6 +56,7 @@ else()
     qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 endif()
 
+target_include_directories(DM_Linear-Algebraic-Equations PUBLIC "include")
 target_link_libraries(DM_Linear-Algebraic-Equations PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
 set_target_properties(DM_Linear-Algebraic-Equations PROPERTIES

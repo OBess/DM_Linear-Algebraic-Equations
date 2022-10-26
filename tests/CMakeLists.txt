@@ -10,8 +10,7 @@ find_package(GTest CONFIG REQUIRED)
 
 add_executable(tests tests.cpp)
 
-message("$<CONFIG:Debug>")
-
+target_include_directories(tests PUBLIC "../include")
 target_link_libraries(tests PRIVATE GTest::gtest GTest::gtest_main)
 
 enable_testing(True)

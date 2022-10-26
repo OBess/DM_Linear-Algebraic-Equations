@@ -2,7 +2,7 @@
 
 #include <gtest/gtest.h>
 
-#include "../SeidelsMethod.h"
+#include "SeidelsMethod.h"
 
 TEST(SeidelsMethod, n_2_003f)
 {

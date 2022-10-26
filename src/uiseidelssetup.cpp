@@ -1,5 +1,5 @@
 #include "uiseidelssetup.h"
-#include "ui_uiseidelssetup.h"
+#include "../ui_uiseidelssetup.h"
 
 #include "SeidelsMethod.h"
 

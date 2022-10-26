@@ -1,5 +1,5 @@
 #include "linearalgebraicequations.h"
-#include "./ui_linearalgebraicequations.h"
+#include "../ui_linearalgebraicequations.h"
 
 #include <string>
 

@@ -14,20 +14,20 @@ namespace sfe
   public:
     using float_matrix = std::vector<std::vector<float_t>>;
 
-    SeidelsMethod() = default;
+    constexpr SeidelsMethod() = default;
 
-    SeidelsMethod(size_t n, float_t accuracy)
+    constexpr SeidelsMethod(size_t n, float_t accuracy)
         : _matrix(n, std::vector<float_t>(n + 1)), _vector(n), _result(n), _accuracy{accuracy}
     {
     }
 
-    inline void add(size_t x, size_t y, float_t value) noexcept
+    constexpr void add(size_t x, size_t y, float_t value) noexcept
     {
       _matrix[y][x] = value;
       _vector[y] = _matrix[y].back();
     }
 
-    inline void compute() noexcept
+    constexpr void compute() noexcept
     {
         for (auto& v : _matrix)
             v.pop_back();
@@ -35,17 +35,17 @@ namespace sfe
         _result = gauss_seidel(matrix(), vector(), _accuracy);
     }
 
-    inline const std::vector<float_t> &vector() const noexcept
+    constexpr const std::vector<float_t> &vector() const noexcept
     {
       return _vector;
     }
 
-    inline const float_matrix &matrix() const noexcept
+    constexpr const float_matrix &matrix() const noexcept
     {
       return _matrix;
     }
 
-    inline const auto &result() const noexcept
+    constexpr const auto &result() const noexcept
     {
       return _result;
     }

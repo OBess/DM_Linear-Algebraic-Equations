@@ -1,7 +1,10 @@
 #ifndef UISEDELSRESULT_H
 #define UISEDELSRESULT_H
 
+#include <memory>
+
 #include <QMainWindow>
+#include <QLabel>
 
 #include "SeidelsMethod.h"
 
@@ -17,14 +20,12 @@ public:
     explicit UISedelsResult(QWidget *parent = nullptr);
     ~UISedelsResult();
 
-    void set_method(sfe::SeidelsMethod seidelsMethod) noexcept;
-
-    void print(const QString& filepath);
+    void set_results(const sfe::SeidelsMethod& seidelsMethod) noexcept;
 
 private:
     Ui::UISedelsResult *ui;
 
-    sfe::SeidelsMethod _seidelsMethod;
+    std::vector<std::unique_ptr<QLabel>> _labelsList;
 };
 
 #endif // UISEDELSRESULT_H

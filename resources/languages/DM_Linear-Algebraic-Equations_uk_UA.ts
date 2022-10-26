@@ -90,8 +90,14 @@
         <location filename="../../views/uisedelsresult.ui" line="14"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/include/ui_uisedelsresult.h" line="45"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/ui_uisedelsresult.h" line="45"/>
-        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_uisedelsresult.h" line="45"/>
+        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_uisedelsresult.h" line="49"/>
         <source>Результати розв&apos;язку СЛАУ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../views/uisedelsresult.ui" line="40"/>
+        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_uisedelsresult.h" line="51"/>
+        <source>Кількість змінних: 3</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -76,7 +76,7 @@ void UISeidelsSetup::on_computeBtn_released()
     }
 
     seidelsResult.reset(new UISedelsResult(this));
-    seidelsResult->set_method(std::move(SeidelMethod));
+    seidelsResult->set_results(SeidelMethod);
     seidelsResult->show();
 }
 

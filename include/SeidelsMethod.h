@@ -30,7 +30,14 @@ public:
 
     constexpr void compute()
     {
-        _result = gauss_seidel(matrix(), vector(), _accuracy);
+        if (_cached == false)
+        {
+            for (auto& v : _matrix)
+                v.pop_back();
+
+            _result = gauss_seidel(matrix(), vector(), _accuracy);
+            _cached = true;
+        }
     }
 
     constexpr const std::vector<float_t> &vector() const noexcept
@@ -64,7 +71,7 @@ private:
 
         for (size_t i = 0; i < dimension; ++i)
         {
-            const float_t sum = std::accumulate(std::cbegin(A[i]), std::cend(A[i]) - 1, 0.0f) - std::abs(A[i][i]);
+            const float_t sum = std::accumulate(std::cbegin(A[i]), std::cend(A[i]), 0.0f) - std::abs(A[i][i]);
 
             if (sum > A[i][i])
             {
@@ -111,6 +118,7 @@ private:
     float_matrix _matrix;
     std::vector<float_t> _vector;
     std::vector<float_t> _result;
+    bool _cached = false;
 
     float_t _accuracy = 0.0f;
 };

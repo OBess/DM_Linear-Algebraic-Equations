@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Результати розв'язку СЛАУ</string>
+   <string>Результати розв'язку СЛАР</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="lblVarsAmount">

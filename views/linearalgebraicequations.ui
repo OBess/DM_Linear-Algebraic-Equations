@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>СЛАУ Методом Зейделя</string>
+   <string>СЛАР Методом Зейделя</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="lblVarsAmount">

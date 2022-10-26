@@ -4,11 +4,15 @@
 <context>
     <name>LinearAlgebraicEquations</name>
     <message>
-        <location filename="../../views/linearalgebraicequations.ui" line="26"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/include/ui_linearalgebraicequations.h" line="67"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/ui_linearalgebraicequations.h" line="67"/>
-        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_linearalgebraicequations.h" line="67"/>
         <source>СЛАУ Методом Зейделя</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../views/linearalgebraicequations.ui" line="26"/>
+        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_linearalgebraicequations.h" line="67"/>
+        <source>СЛАР Методом Зейделя</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -87,11 +91,15 @@
 <context>
     <name>UISedelsResult</name>
     <message>
-        <location filename="../../views/uisedelsresult.ui" line="26"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/include/ui_uisedelsresult.h" line="45"/>
         <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/ui_uisedelsresult.h" line="45"/>
-        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_uisedelsresult.h" line="79"/>
         <source>Результати розв&apos;язку СЛАУ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../views/uisedelsresult.ui" line="26"/>
+        <location filename="../../build/DM_Linear-Algebraic-Equations_autogen/views/ui_uisedelsresult.h" line="79"/>
+        <source>Результати розв&apos;язку СЛАР</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

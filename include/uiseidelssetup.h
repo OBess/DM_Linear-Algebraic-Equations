@@ -32,6 +32,8 @@ private slots:
 private:
     void build_window();
 
+    void compute();
+
     Ui::UISeidelsSetup *ui;
 
     std::list<std::unique_ptr<QLineEdit>> _layoutWidgets;

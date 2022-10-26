@@ -59,6 +59,11 @@ void UISeidelsSetup::on_cancelBtn_released()
 
 void UISeidelsSetup::on_computeBtn_released()
 {
+    compute();
+}
+
+void UISeidelsSetup::compute()
+{
     auto accuracy = ui->accuracyEdit->text().toFloat();
     auto SeidelMethod = sfe::SeidelsMethod(_n, accuracy);
 
@@ -79,4 +84,3 @@ void UISeidelsSetup::on_computeBtn_released()
     seidelsResult->set_results(SeidelMethod);
     seidelsResult->show();
 }
-

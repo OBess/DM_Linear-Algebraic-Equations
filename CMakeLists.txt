@@ -24,13 +24,13 @@ set(PROJECT_SOURCES
         main.cpp
         src/linearalgebraicequations.cpp
         include/linearalgebraicequations.h
-        linearalgebraicequations.ui
+        views/linearalgebraicequations.ui
         src/uiseidelssetup.cpp
         include/uiseidelssetup.h
-        uiseidelssetup.ui
+        views/uiseidelssetup.ui
         src/uisedelsresult.cpp
         include/uisedelsresult.h
-        uisedelsresult.ui
+        views/uisedelsresult.ui
         include/SeidelsMethod.h
         ${TS_FILES}
 )

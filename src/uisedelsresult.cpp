@@ -1,5 +1,5 @@
 #include "uisedelsresult.h"
-#include "../ui_uisedelsresult.h"
+#include "../views/ui_uisedelsresult.h"
 
 UISedelsResult::UISedelsResult(QWidget *parent) :
     QMainWindow(parent),

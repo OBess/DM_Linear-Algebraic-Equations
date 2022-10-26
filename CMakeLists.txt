@@ -18,7 +18,7 @@ add_subdirectory(tests)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-set(TS_FILES DM_Linear-Algebraic-Equations_uk_UA.ts)
+set(TS_FILES resources/languages/DM_Linear-Algebraic-Equations_uk_UA.ts)
 
 set(PROJECT_SOURCES
         main.cpp
